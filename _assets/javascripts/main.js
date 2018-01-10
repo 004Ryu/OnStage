@@ -1,0 +1,1 @@
+//= require form-submission-handler.js

@@ -1,0 +1,17 @@
+<section id="team">
+	<div class="col-xs-offset-2">
+		<h1 class="title">Equipa</h1>
+		<h4> Este foi um projeto que uniu varios membros de varias areas, conhece os, na galhofa!</h4>
+	</div>
+	<div class="team-container col-md-offset-2 col-md-8">
+		{% for dude in site.data.team %}
+			<div class="team-item">
+				{% img background/party2.jpg class:'team-image'%}
+				<h3 class="team-name">{{ dude.nome }}</h3>
+				<h4 class="team-name">{{ dude.job }}</h4>
+			</div>
+		{% endfor %}
+	</div>
+	<div class="filler">
+	</div>
+</section>

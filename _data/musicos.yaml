@@ -1,0 +1,59 @@
+- name: Stuff1
+  gender: Rock
+
+- name: Stuff2
+  gender: Rock
+
+- name: Stuff3
+  gender: Rock
+
+- name: Stuff4
+  gender: Jazz
+
+- name: Stuff5
+  gender: Jazz
+
+- name: Stuff6
+  gender: Rock
+
+- name: Stuff7
+  gender: Rock
+
+- name: Stuff8
+  gender: Blues
+
+- name: Stuff9
+  gender: Rock
+
+- name: Stuff10
+  gender: Rock
+
+- name: Stuff11
+  gender: Rock
+
+- name: Stuff12
+  gender: Rock
+
+- name: Stuff13
+  gender: Pop
+
+- name: Stuff14
+  gender: Metal
+
+- name: Stuff15
+  gender: Punk
+
+- name: Stuff16
+  gender: Outros
+
+- name: Stuff17
+  gender: Outros
+
+- name: Stuff18
+  gender: Outros
+
+- name: Stuff19
+  gender: Outros
+
+- name: Stuff20
+  gender: Outros
