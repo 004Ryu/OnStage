@@ -1,13 +1,14 @@
-- name: Rock
+- name: Batizados
+  link: bat
   
-- name: Jazz
+- name: Funerais
+  link: fune
   
-- name: Pop
+- name: Eventos Privados
+  link: private
   
-- name: Metal
-  
-- name: Punk
-  
-- name: Blues
+- name: Casamentos
+  link: weddings
   
 - name: Outros
+  link: other

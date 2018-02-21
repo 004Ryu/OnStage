@@ -1,0 +1,124 @@
+<div class="col-md-8 col-md-offset-2 formContainer">
+
+  <div class="col-md-12 formHeader">
+    <h2>Fala Conosco</h2>
+  </div>
+   
+  <div class="col-md-12">
+    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="2k9andre@gmail.com"
+    action="https://script.google.com/macros/s/AKfycbzicdEzLW5g_mJ-EriOrm9DQraBGIVkT4GLU7Fb4YoAlMx2SEA/exec">
+      <!-- change the form action to your script url -->
+      <h4>
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Nome" name="Nome" placeholder="Nome" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Morada" name="Morada" placeholder="Morada" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="PostCode" name="PostCode" placeholder="Codigo Postal" />
+        </fieldset>
+
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Localidade" name="Localidade" placeholder="Localidade" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="DataNascimento" name="DataNascimento" placeholder="Data Nascimento" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Naturalidade" name="Naturalidade" placeholder="Naturalidade" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Profissao" name="Profissao" placeholder="Profissao" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Nif" name="Nif" placeholder="Nif" />
+        </fieldset>
+
+
+
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="email" name="email" type="email" value=""
+          required placeholder="Email"/>
+          <span id="email-invalid" style="display:none">
+            Must be a valid email address</span>
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Telemovel" name="Telemovel" placeholder="Telemovel" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Link" name="Link" placeholder="Musica(link)" />
+        </fieldset>
+
+        <fieldset class="pure-group formArea">
+          <input class="col-md-12" id="Foto" name="Foto" placeholder="Foto(link)" />
+        </fieldset>
+
+
+
+        <!--checkboxes-->
+        <fieldset class="pure-group formArea">
+          <label>Tipo de espetaculos</label>
+        </br>
+        </br>
+        <div class="col-md-4 col-sm-6 musicTypeContainer">
+          <div class="col-xs-1 musicType">
+            <input id="Casamentos" type="checkbox" name="Eventos" value="Casamentos"/> 
+          </div>
+            <label for="Casamentos">Casamentos</label>
+        </div>
+        <div class="col-md-4 col-sm-6 musicTypeContainer">
+          <div class="col-xs-1 musicType">
+            <input id="Batizados" type="checkbox" name="Eventos" value="Batizados"/> 
+          </div>  
+            <label for="Batizados">Batizados</label>
+        </div>
+        <div class="col-md-4 col-sm-6 musicTypeContainer">
+          <div class="col-xs-1 musicType">
+            <input id="Funerais" type="checkbox" name="Eventos" value="Funerais"/> 
+          </div>  
+            <label for="Funerais">Funerais</label>
+        </div>
+        <div class="col-md-4 col-sm-6 musicTypeContainer">
+          <div class="col-xs-1 musicType">
+            <input id="EventosPrivados" type="checkbox" name="Eventos" value="EventosPrivados"/> 
+          </div>  
+            <label for="EventosPrivados">Eventos Privados</label>
+        </div>
+        <div class="col-md-4 col-sm-6 musicTypeContainer">
+          <div class="col-xs-1 musicType">
+          <input id="Outros" type="checkbox" name="Eventos" value="Outros"/> 
+          </div>
+            <label for="Outros">Outros</label>
+        </fieldset>
+
+
+        <fieldset class="pure-group formArea">
+          <div class="col-md-3">
+            <label for="Mensagem">Mensagem: </label>
+          </div>
+          <textarea class="col-xs-12" id="Mensagem" name="Mensagem" rows="10"
+          placeholder="Alguma coisa extra a dizer?"></textarea>
+        </fieldset>
+          <div class="col-md-offset-3 col-md-6">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary formBut" data-toggle="modal" data-target="#exampleModal">
+              Enviar Candidatura
+            </button>
+          </div>
+      </h4>
+    {% include artists/form/modal.html %}
+    
+    </form>
+  </div>
+</div>

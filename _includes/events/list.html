@@ -1,0 +1,19 @@
+<section id="genders">
+  <div class="container">
+    <div class="section-title-container">
+      <h1 class="section-title">Eventos</h1>
+    </div>
+    <div class="genders-list">
+      {% for genero in site.data.generos %}
+      <div class="genders-list-cell genders-container">
+        <a href="{{ genero.link | slugify }}">
+        <div class="gender-img">
+          {% image favicon.ico class:gender-pic %}
+        </div>
+        <span class="gender-name">{{ genero.name }}</span>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
