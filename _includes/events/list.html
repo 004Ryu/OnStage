@@ -8,7 +8,7 @@
       <div class="genders-list-cell genders-container">
         <a href="{{ genero.link | slugify }}">
         <div class="gender-img">
-          {% image favicon.ico class:gender-pic %}
+          <img src="{{ genero.img | asset_path }}" class="gender-pic"/>
         </div>
         <span class="gender-name">{{ genero.name }}</span>
         </a>

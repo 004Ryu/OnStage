@@ -8218,7 +8218,7 @@ footer:hover {
     padding-top: 150px;
     font-size: 70px; }
 
-#about {
+#aboutArtists {
   padding-bottom: 75px;
   background-color: #231F20;
   background-position: center center;
@@ -8227,11 +8227,11 @@ footer:hover {
   width: 100%;
   color: #FEFEFE;
   text-align: left; }
-  #about .aboutPic {
+  #aboutArtists .aboutPic {
     width: 100%;
     height: auto;
     padding-top: 50px; }
-  #about .aboutBut {
+  #aboutArtists .aboutBut {
     background-color: #841715;
     border: none;
     margin: 30px auto;
@@ -8239,9 +8239,9 @@ footer:hover {
     opacity: 0.6;
     -webkit-transition: opacity 1s ease;
     transition: opacity 1s ease; }
-  #about .butContainer {
+  #aboutArtists .butContainer {
     text-align: center; }
-  #about .aboutBut:hover {
+  #aboutArtists .aboutBut:hover {
     opacity: 0.9;
     -webkit-transition: opacity 1s ease;
     transition: opacity 1s ease; }
@@ -8601,3 +8601,29 @@ div.organization-indicators span:hover, div.organization-indicators span:focus {
     color: #FEFEFE;
     padding-top: 150px;
     font-size: 70px; }
+
+#aboutEvents {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+  color: #FEFEFE; }
+  #aboutEvents .section-title-container {
+    margin: 40px; }
+  #aboutEvents .butContainer {
+    text-align: center; }
+
+#genders {
+  width: 100%;
+  background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  background-color: blue;
+  color: #FEFEFE;
+  padding-bottom: 120px; }
+  #genders .section-title-container {
+    margin: 40px; }
+  #genders .butContainer {
+    text-align: center; }

@@ -1,14 +1,19 @@
 - name: Batizados
   link: bat
+  img: background/feet.jpeg
   
 - name: Funerais
   link: fune
+  img: background/wed.jpeg
   
 - name: Eventos Privados
   link: private
+  img: background/wed.jpeg
   
 - name: Casamentos
   link: weddings
+  img: background/wed.jpeg
   
 - name: Outros
   link: other
+  img: background/dheader1r.jpg
