@@ -1,4 +1,4 @@
-<section id="genders" style="margin-top: 50px;margin-bottom: 100px">
+<section id="art-bat">
   <div class="container">
     <div class="section-title-container">
       <h1 class="section-title">Artistas Batizados</h1>
@@ -8,7 +8,7 @@
       <div class="genders-list-cell genders-container">
         <a href="musicos/#{{ genero.name | slugify }}">
         <div class="gender-img">
-          {% image favicon.ico class:gender-pic %}
+          {% image user.png class:gender-pic %}
         </div>
         <span class="gender-name">{{ genero.name }}</span>
         </a>
